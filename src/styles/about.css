@@ -1,0 +1,27 @@
+.aboutdiv{
+    background-color: black;
+    text-align: center;
+    padding: 1rem;
+    border-color: rgb(180, 85, 7);
+}
+
+.line{
+    border-top: 2px solid rgb(247, 146, 64);
+}
+
+.aboutdiv h1{
+    padding: 2rem;
+    color: rgb(231, 118, 25);
+}
+
+.heads{
+    color: white;
+}
+
+.paragraph{
+    color: white;
+    line-height: 150%;
+    font-size: medium;
+    font-family: sans-serif;
+    padding: 1rem;
+}

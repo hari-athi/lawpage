@@ -1,0 +1,64 @@
+.footdiv {
+  background-color: black;
+  display: flex;
+  justify-content:space-between ;
+}
+
+.icon{
+    color: whitesmoke;
+    /* border-left: 1px solid rgb(240, 240, 240); */
+    padding: .75vw;
+    font-size: x-large;
+    align-content: center;
+}
+
+.iconfootdiv{
+    justify-content: center;
+}
+
+.parright{
+  color: white;
+  line-height: 150%;
+  font-size: smaller;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: right;
+  padding: 1rem;
+}
+
+.right{
+    padding: 2vw;
+    width: 50vw;
+    /* text-align: right; */
+    /* justify-content: right; */
+}
+
+.left {
+  padding: 1vw;
+  width: 50vw;
+  text-align: center;
+  /* border-right: 1px solid rgb(240, 240, 240); */
+}
+
+.par {
+  color: white;
+  line-height: 150%;
+  font-size: smaller;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  padding: 1rem;
+}
+
+.headtag {
+  /* padding: 2vw; */
+  color: rgb(231, 118, 25);
+}
+
+.rights{
+  text-align: right;
+  color: white;
+  font-size: small;
+  background-color: rgb(20, 32, 32);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+}

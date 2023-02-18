@@ -1,0 +1,36 @@
+.card{
+    background-color: black;
+    color: white;
+    padding: 3vw;
+    margin: 1rem;
+    /* width: 10rem; */
+}
+.card p {
+    padding-top: 3rem 5rem;
+    line-height: 150%;
+    font-size: small;
+    margin: 1px;
+}
+.card h4{
+    color: rgb(231, 118, 25);
+}
+.card img{
+    border-radius: 50%;
+    height: 10vw;
+    width: 10vw;
+    margin: 2px;
+}
+
+@media screen and (min-width : 1024px) {
+    .expand{
+        max-width: 80vw;
+        min-width: 80vw;
+    }
+}
+
+/* @media screen and (min-width : 1280px) {
+    .expand{
+        max-width: 80vw;
+        min-width: 80vw;
+    }
+} */

@@ -1,0 +1,59 @@
+.heading {
+  display: flex;
+  background-color: rgb(11, 11, 22);
+  color: white;
+  justify-content: center;
+  height: fit-content;
+}
+
+.images {
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem;
+}
+
+.lawyerimg {
+  margin: 4rem;
+  height: 25rem;
+  width: 20rem;
+}
+
+.divanime{
+  display: flex;
+  align-items: center;
+
+}
+
+.divtag {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+
+.banner {
+  background-image: url("../resource/bgimage3.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 40rem;
+}
+
+.contactdiv{
+  display: flex;
+  justify-content: space-around;
+}
+
+.bannerbutton {
+  color: white;
+  background-color: rgb(184, 75, 3);
+  border-color: rgb(184, 75, 20);
+  border-radius: 5px;
+  /* height: 2.5rem;
+  width: 9rem; */
+  height: fit-content;
+  width: fit-content;
+  /* margin: 7rem; */
+  /* margin-top: 0; */
+  font-size: medium;
+  font-weight: bold;
+}

@@ -1,0 +1,13 @@
+.styles{
+    display: flex;
+    justify-content: center;
+    /* padding: 4rem; */
+    /* text-align: center; */
+    flex-wrap: wrap;
+}
+.h1{
+    padding: 4rem;
+    color: rgb(231, 118, 25);
+    margin: 2rem;
+    text-align: center;
+}
