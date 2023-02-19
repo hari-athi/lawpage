@@ -36,7 +36,7 @@ const Animatedtext =()=> {
 
   return (
     <motion.div
-      style={{ fontSize: "4.5rem"}}
+      style={{ fontSize: "4.2rem"}}
       variants={container}
       initial="hidden"
       animate="visible"

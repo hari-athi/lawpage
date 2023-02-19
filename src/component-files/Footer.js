@@ -18,17 +18,7 @@ const Footer = () => {
             give you the confidence to take on the accusation and come out with
             success.
           </p>
-          <div className="iconfootdiv">
-            <a href="insta.com" className="icon">
-              <FiInstagram />
-            </a>
-            <a href="twitter.com" className="icon">
-              <SlSocialTwitter />
-            </a>
-            <a href="facebook.com" className="icon">
-              <ImFacebook2 />
-            </a>
-          </div>
+          
         </div>
         <div className="right">
           <p className="parright">
@@ -48,6 +38,17 @@ const Footer = () => {
           </p>
         </div>
       </div>
+      <div className="iconfootdiv">
+            <a href="insta.com" className="icon">
+              <FiInstagram />
+            </a>
+            <a href="twitter.com" className="icon">
+              <SlSocialTwitter />
+            </a>
+            <a href="facebook.com" className="icon">
+              <ImFacebook2 />
+            </a>
+          </div>
       <div className="rights">
         <h5>© 2023, Techief Technologies. All Rights Reserved.</h5>
       </div>

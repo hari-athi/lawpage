@@ -25,15 +25,15 @@ const Header = () => {
         </div>
 
         <div className="contactdiv">
-          <a href="tel:99999999999">
-            <button className="bannerbutton">
-              <p>Contact Us <BsFillTelephoneFill/></p>
-            </button>
+          <a href="tel:99999999999" className="atag">
+            {/* <button className="bannerbutton"> */}
+              <h1><BsFillTelephoneFill/>    99999999999</h1>
+            {/* </b/utton> */}
           </a>
-          <a href="mailto:mail@gmail.com">
-            <button className="bannerbutton">
-              <p>Send Mail <FiMail/></p>
-            </button>
+          <a href="mailto:atlas@gmail.com" className="atag">
+            {/* <button className="bannerbutton"> */}
+              <h1><FiMail/>   atlas@gmail.com</h1>
+            {/* </button> */}
           </a>
         </div>
       </div>
