@@ -6,7 +6,7 @@ const Aboutus = () => {
     <div className="aboutdiv">
       <hr className="line"/>
       <h1>
-        Purpose of <span className="heads">Atlas Law Consultancy</span>
+        Purpose of <span className="heads">Our Law Consultancy</span>
       </h1>
       <p className="paragraph">
         The Atlas Law Consultancy was established to raise voice for the poor

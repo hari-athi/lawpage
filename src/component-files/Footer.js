@@ -9,7 +9,7 @@ const Footer = () => {
     <>
       <div className="footdiv">
         <div className="left">
-          <h4 className="headtag">Why Atlas Law Consultancy</h4>
+          <h4 className="headtag">Why Our Law Consultancy</h4>
           <p className="par">
             As a reputable law practise, we respond to this inquiry. We will do
             everything in our power to assist you because we are aware of the
@@ -50,7 +50,7 @@ const Footer = () => {
             </a>
           </div>
       <div className="rights">
-        <h5>© 2023, Techief Technologies. All Rights Reserved.</h5>
+        <h5>© 2023, All Rights Reserved.</h5>
       </div>
     </>
   );

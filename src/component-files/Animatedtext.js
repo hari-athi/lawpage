@@ -2,7 +2,7 @@ import React from "react";
 import {motion} from "framer-motion"
 
 const Animatedtext =()=> {
-  const text = "We Raise,Our Voice,For You"
+  const text = "Effective Legal Solutions"
   const words = text.split(",");
 
   const container = {
@@ -40,6 +40,7 @@ const Animatedtext =()=> {
       variants={container}
       initial="hidden"
       animate="visible"
+      className="header-animated"
     >
       {words.map((word, index) => (
         <>
