@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../resource/samplelogo.jpg";
-import lawyer from "../resource/lawyer.jpg";
+// import logo from "../resource/samplelogo.jpg";
+// import lawyer from "../resource/lawyer.jpg";
 import "../styles/header.css";
 import Animatedtext from "./Animatedtext";
 import { FiMail } from "react-icons/fi";
@@ -36,9 +36,9 @@ const Header = () => {
                 <div className="member-mail"> <p align="center"> <a href="mailto:kettyleroux@gmail.com">kettyleroux@gmail.com</a> </p> </div>
                 <div className="member-social"> 
                   <ul className="social-listing">
-                    <li><a href="#"><i className="fa fa-facebook" /></a></li>
-                    <li><a href="#"><i className="fa fa-instagram" /></a></li>
-                    <li><a href="#"><i className="fa fa-twitter" /></a></li>
+                    <li><a href="www.facebook.com"><i className="fa fa-facebook" /></a></li>
+                    <li><a href="www.instagram.com"><i className="fa fa-instagram" /></a></li>
+                    <li><a href="www.twitter.com"><i className="fa fa-twitter" /></a></li>
                   </ul> 
                 </div>
             </div>
