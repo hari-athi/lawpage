@@ -46,7 +46,7 @@ const Animatedtext =()=> {
         <>
         <motion.span
           variants={child}
-          style={{ margin: "4rem",color: "rgb(197, 94, 5)",display: "flex", flexWrap:"wrap"  }}
+          style={{ margin: "4rem",color: "rgb(197, 94, 5)",display: "flex", flexWrap:"wrap", lineHeight:"60px" }}
           key={index}
         >
           {word}
