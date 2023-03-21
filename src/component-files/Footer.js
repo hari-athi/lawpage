@@ -1,8 +1,5 @@
 import React from "react";
 import "../styles/footer.css";
-import { FiInstagram } from "react-icons/fi";
-import { SlSocialTwitter } from "react-icons/sl";
-import { ImFacebook2 } from "react-icons/im";
 
 const Footer = () => {
   return (
@@ -22,32 +19,24 @@ const Footer = () => {
         </div>
         <div className="right">
           <p className="parright">
-            123/A, Victoria Hostel Rd,
+           145 Kadaliyar Rd,
             <br />
-            Chepauk, Triplicane, Chennai,
+            Kovilpatti, Thoothukudi,
             <br />
             Tamil Nadu,
             <br />
-            - 600005.
+            
             <br />
             <br />
             <span className="headtag">
-              1234456544 <span style={{ color: "white" }}>|</span>{" "}
-              mailid@gmail.com
+              +91 9842980769 <span style={{ color: "white" }}>|</span>{" "}
+              msivaadvocate2016@gmail.com
             </span>
           </p>
         </div>
       </div>
       <div className="iconfootdiv">
-            <a href="insta.com" className="icon">
-              <FiInstagram />
-            </a>
-            <a href="twitter.com" className="icon">
-              <SlSocialTwitter />
-            </a>
-            <a href="facebook.com" className="icon">
-              <ImFacebook2 />
-            </a>
+           
           </div>
       <div className="rights">
         <h5>© 2023, All Rights Reserved.</h5>

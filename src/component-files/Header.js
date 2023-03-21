@@ -1,6 +1,6 @@
 import React from "react";
 // import logo from "../resource/samplelogo.jpg";
-// import lawyer from "../resource/lawyer.jpg";
+import lawyer from "../resource/lawyer.jpeg";
 import "../styles/header.css";
 import Animatedtext from "./Animatedtext";
 import { FiMail } from "react-icons/fi";
@@ -12,13 +12,13 @@ const Header = () => {
        <div className="contactdiv">
           <a href="tel:99999999999" className="atag">
             {/* <button className="bannerbutton"> */}
-              <h1><BsFillTelephoneFill/>    99999999999</h1>
+              <h1><BsFillTelephoneFill/>    +919842980769</h1>
             {/* </b/utton> */}
         </a>
         {/* <span>Law Consultancy</span> */}
           <a href="mailto:atlas@gmail.com" className="atag">
             {/* <button className="bannerbutton"> */}
-              <h1><FiMail/>   as@gmail.com</h1>
+              <h1><FiMail/>  msivaadvocate2016@gmail.com</h1>
             {/* </button> */}
           </a>
         </div>
@@ -30,17 +30,10 @@ const Header = () => {
           <div className="teamWrapper">
             <div className="container">
               <div className="teamcolinner">
-                <div className="avatar"><img src="https://i.ibb.co/6nQP7Wm/pexels-vinicius-wiesehofer-1130626-1.jpgjpg" alt="Member" /></div>
-                <div className="member-name"> <h2 align="center">Ketty Leroux</h2> </div>
-                <div className="member-info"><p align="center">Lorem Ipsum is a simply dummy text of the printing and typesetting industry.</p></div>
-                <div className="member-mail"> <p align="center"> <a href="mailto:kettyleroux@gmail.com">kettyleroux@gmail.com</a> </p> </div>
-                <div className="member-social"> 
-                  <ul className="social-listing">
-                    <li><a href="www.facebook.com"><i className="fa fa-facebook" /></a></li>
-                    <li><a href="www.instagram.com"><i className="fa fa-instagram" /></a></li>
-                    <li><a href="www.twitter.com"><i className="fa fa-twitter" /></a></li>
-                  </ul> 
-                </div>
+                <div className="avatar"><img src={lawyer} alt="Member" /></div>
+                <div className="member-name"> <h2 align="center">Siva</h2> </div>
+                <div className="member-info"><p align="center">145 Kadaliyar Road, Kovilpatti </p></div>
+                <div className="member-info"><p align="center">Thoothukudi, TamilNadu</p></div>
             </div>
           </div>
           </div>

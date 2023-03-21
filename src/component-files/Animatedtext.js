@@ -2,7 +2,7 @@ import React from "react";
 import {motion} from "framer-motion"
 
 const Animatedtext =()=> {
-  const text = "Effective Legal Solutions"
+  const text = "Siva Law office"
   const words = text.split(",");
 
   const container = {

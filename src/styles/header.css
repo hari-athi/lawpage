@@ -95,17 +95,15 @@ margin: auto;
   position: absolute;
   left: 0;
   right: 0;
-  top: -80px;
+  top: -153px;
   text-align: center;
 }
 .teamcolinner {
   position: relative;
 }
 .avatar > img {
-  width: 150px;
+  width: 200px;
   margin: auto;
-  border-radius: 50%;
-  border: 1px solid rgb(170 170 173/ 1);
   box-shadow: 0px 3px 10px 3px rgb(170 170 173 / 0.5);
 }
 .teamcolinner {
